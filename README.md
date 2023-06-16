@@ -1,4 +1,14 @@
-# Frontend Mentor - Skilled e-learning landing page
+# Frontend Mentor Challenge 2
+## Skilled e-learning landing page
+
+This is my second challenge from frontend.
+
+I will try to use [TailWindCss](https://tailwindcss.com/) to build the website.
+
+It will be fun.
+
+---
+## Frontend Mentor - Skilled e-learning landing page
 
 ![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)
 
