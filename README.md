@@ -8,6 +8,13 @@ I will try to use [TailWindCss](https://tailwindcss.com/) to build the website.
 It will be fun.
 
 ---
+## Obstacle
+
+1. Find out I was unsure about how to properly vertically center the <a> element
+
+Ans: use the Padding to solve it.
+
+---
 ## Frontend Mentor - Skilled e-learning landing page
 
 ![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)
