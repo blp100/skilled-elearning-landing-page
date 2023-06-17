@@ -89,6 +89,11 @@
               },
             ],
           },
+          extend: {
+            dropShadow: {
+              "sp": "0px 34px 54px rgba(6, 22, 141, 0.158854)",
+            },
+          },
         },
       };
     </script>
@@ -98,7 +103,11 @@
     <header id="header">
       <!-- Nav Bar-->
       <nav class="flex justify-between items-center m-4">
-        <img src="images/logo-dark.svg" class="h-[21.53px] lg:h-[27.68px]" alt="logo">
+        <img
+          src="images/logo-dark.svg"
+          class="h-[21.53px] lg:h-[27.68px]"
+          alt="logo"
+        />
         <a
           class="block text-center text-white text-base/[28px] bg-dark-blue w-[140px] rounded-[28px] font-bold p-3 hover:bg-purple"
           href="#"
@@ -108,19 +117,30 @@
       <!-- Title -->
       <div id="title">
         <div class="m-4">
-          <h1 class="my-1.5 text-h-l text-dark-blue">Maximize skill, minimize budget</h1>
+          <h1 class="my-1.5 text-h-l text-dark-blue">
+            Maximize skill, minimize budget
+          </h1>
           <p class="my-5 text-b-m-mt text-body-gray">
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
           </p>
           <a
-            class="inline-block mt-1 mb-6 text-center text-white text-base/[26px] w-[167px] font-bold rounded-[28px] p-4 hover:bg-purple bg-gradient-to-b from-grad-orange to-grad-purple"
+            class="inline-block mt-1 mb-6 text-center text-white text-base/[26px] w-[167px] font-bold rounded-[28px] p-4 bg-gradient-to-b from-grad-orange to-grad-purple"
             href="#"
             >Get Started
           </a>
         </div>
-        <div class="m-[-7.1%]">
-          <picture>
+        <div class="relative m-6">
+          <div
+            class="relative mx-auto h-[253px] w-[253px] rounded-full overflow-hidden bg-gradient-to-b from-grad-orange to-grad-purple"
+          >
+            <img
+              class="absolute inset-x-0 bottom-0 mx-auto"
+              src="images/image-hero.png"
+              alt="started image"
+            />
+            <!-- for referrence only, load different images on responsive -->
+            <!-- <picture>
             <source
               media="(min-width:1440px)"
               srcset="images/image-hero-desktop.png"
@@ -134,7 +154,20 @@
               alt="started image"
               class="w-[120%]"
             />
-          </picture>
+          </picture> -->
+          </div>
+          <div
+            class="absolute py-4 pl-5 top-0 right-0 w-[105px] h-[100px] rounded-[10px] bg-white drop-shadow-sp"
+          >
+            <span class="text-b-s text-body-gray">Members</span>
+            <h3 class="text-h-m">29K</h3>
+          </div>
+          <div
+            class="absolute py-4 pl-5 bottom-0 left-0 w-[155px] h-[100px] rounded-[10px] bg-white drop-shadow-sp"
+          >
+            <span class="text-b-s text-body-gray">Courses Hours</span>
+            <h3 class="text-h-m">1,451</h3>
+          </div>
         </div>
       </div>
     </header>
