@@ -91,7 +91,8 @@
           },
           extend: {
             dropShadow: {
-              "sp": "0px 34px 54px rgba(6, 22, 141, 0.158854)",
+              sp: "0px 34px 54px rgba(6, 22, 141, 0.158854)",
+              "sp-content": "0px 25px 50px rgba(6, 22, 141, 0.0442381)",
             },
           },
         },
@@ -172,8 +173,134 @@
       </div>
     </header>
     <!-- features -->
-    <section id="features"></section>
+    <section class="bg-gradient-to-b from-white to-[#F0F1FF] p-4" id="features">
+      <div
+        class="grid grid-cols-1 gap-4 bg-gradient-to-b from-white to-[#F0F1FF]"
+      >
+        <div
+          class="bg-body-gray h-[120px] rounded-[10px] bg-gradient-to-b from-grad-orange to-grad-purple"
+        >
+          <h3 class="mt-6 ml-7 text-h-s/[32px] font-extrabold text-white">
+            Check out our most popular courses!
+          </h3>
+        </div>
+        <div
+          class="bg-white relative mt-7 p-7 rounded-[10px] drop-shadow-sp-content"
+        >
+          <img
+            class="absolute top-[-28px]"
+            src="images/icon-animation.svg"
+            alt="animation icon"
+          />
+          <h4 class="mt-6 text-[20px]/[25px] font-extrabold text-dark-blue">
+            Animation
+          </h4>
+          <p class="mt-4 stext-b-m-mt text-body-gray">
+            Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.
+          </p>
+          <a
+            class="inline-block mt-6 text-link-color text-b-m font-bold"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <div
+          class="bg-white relative mt-7 p-7 rounded-[10px] drop-shadow-sp-content"
+        >
+          <img
+            class="absolute top-[-28px]"
+            src="images/icon-design.svg"
+            alt="design icon"
+          />
+          <h4 class="mt-6 text-[20px]/[25px] font-extrabold text-dark-blue">
+            Design
+          </h4>
+          <p class="mt-4 stext-b-m-mt text-body-gray">
+            Create beautiful, usable interfaces to help shape the future of how
+            the web looks.
+          </p>
+          <a
+            class="inline-block mt-6 text-link-color text-b-m font-bold"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <div
+          class="bg-white relative mt-7 p-7 rounded-[10px] drop-shadow-sp-content"
+        >
+          <img class="absolute top-[-28px]" src="images/icon-animation.svg" />
+          <h4 class="mt-6 text-[20px]/[25px] font-extrabold text-dark-blue">
+            Photography
+          </h4>
+          <p class="mt-4 stext-b-m-mt text-body-gray">
+            Explore critical fundamentals like lighting, composition, and focus
+            to capture exceptional photos.
+          </p>
+          <a
+            class="inline-block mt-6 text-link-color text-b-m font-bold"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <div
+          class="bg-white relative mt-7 p-7 rounded-[10px] drop-shadow-sp-content"
+        >
+          <img
+            class="absolute top-[-28px]"
+            src="images/icon-crypto.svg"
+            alt="crypto icon"
+          />
+          <h4 class="mt-6 text-[20px]/[25px] font-extrabold text-dark-blue">
+            Crypto
+          </h4>
+          <p class="mt-4 stext-b-m-mt text-body-gray">
+            All you need to know to get started investing in crypto. Go from
+            beginner to advanced with this 54 hour course.
+          </p>
+          <a
+            class="inline-block mt-6 text-link-color text-b-m font-bold"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <div
+          class="bg-white relative mt-7 p-7 rounded-[10px] drop-shadow-sp-content"
+        >
+          <img
+            class="absolute top-[-28px]"
+            src="images/icon-business.svg"
+            alt="business icon"
+          />
+          <h4 class="mt-6 text-[20px]/[25px] font-extrabold text-dark-blue">
+            Business
+          </h4>
+          <p class="mt-4 stext-b-m-mt text-body-gray">
+            A step-by-step playbook to help you start, scale, and sustain your
+            business without outside investment.
+          </p>
+          <a
+            class="inline-block mt-6 text-link-color text-b-m font-bold"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <div class="bg-dark-blue flex justify-between items-center px-4 py-9">
+        <img
+          src="images/logo-light.svg"
+          class="h-[21.53px] lg:h-[27.68px]"
+          alt="logo light version"
+        />
+        <a
+          class="block text-center text-white text-base/[28px] bg-gradient-to-b from-grad-blue to-grad-purple w-[140px] rounded-[28px] font-bold p-3 hover:bg-purple"
+          href="#"
+          >Get Started
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
