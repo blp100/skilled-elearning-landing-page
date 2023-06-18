@@ -13,6 +13,15 @@ It will be fun.
 
 know the "pictures" Html tags
 
+know height setting for responsive
+Ex: on mobile
+```css
+height: 120px;
+```
+on tablet (which I want to change height)
+```css
+height: auto;
+```
 ---
 ## Obstacle
 
