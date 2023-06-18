@@ -75,6 +75,7 @@ tailwind.config = {
         "btn-grad": "linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);",
         "btn-grad-hover":
           "linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%)",
+        "btn-grad-lg": "linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);",
       },
     },
   },
