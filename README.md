@@ -8,6 +8,12 @@ I will try to use [TailWindCss](https://tailwindcss.com/) to build the website.
 It will be fun.
 
 ---
+
+## New Things
+
+know the "pictures" Html tags
+
+---
 ## Obstacle
 
 1. Find out I was unsure about how to properly vertically center the <a> element
