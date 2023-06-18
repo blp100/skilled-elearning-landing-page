@@ -72,7 +72,7 @@ tailwind.config = {
         "sp-content": "0px 25px 50px rgba(6, 22, 141, 0.0442381)",
       },
       backgroundImage: {
-        "btn-grad": "linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%)",
+        "btn-grad": "linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);",
         "btn-grad-hover":
           "linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%)",
       },
